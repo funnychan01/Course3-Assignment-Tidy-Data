@@ -55,8 +55,10 @@ II. Informations about variables in the tidy data set with units:
 "timeBodyGyroStdX" - Standard deviation of time of body gyroscope measurement for X direction   
 "timeBodyGyroStdY" - Standard deviation of time of body gyroscope measurement for Y direction  
 "timeBodyGyroStdZ" - Standard deviation of time of body gyroscope measurement for Z direction   
-"timeBodyGyroJerkStdX" - Standard deviation of time of body gyroscope jerk measurement for X direction "timeBodyGyroJerkStdY" - Standard deviation of time of body gyroscope jerk measurement for Y direction
-"timeBodyGyroJerkStdZ" - Standard deviation of time of body gyroscope jerk measurement for Z direction "timeBodyAccMagStd" - Standard deviation of time of acceleration of body magnitude  
+"timeBodyGyroJerkStdX" - Standard deviation of time of body gyroscope jerk measurement for X direction 
+"timeBodyGyroJerkStdY" - Standard deviation of time of body gyroscope jerk measurement for Y direction
+"timeBodyGyroJerkStdZ" - Standard deviation of time of body gyroscope jerk measurement for Z direction 
+"timeBodyAccMagStd" - Standard deviation of time of acceleration of body magnitude  
 "timeGravityAccMagStd" - Standard deviation of time of acceleration of gravity magnitude
 "timeBodyAccJerkMagStd" - Standard deviation of time of acceleration of body jerk magnitude
 "timeBodyGyroMagStd" - Standard deviation of time of body gyroscope magnitude
