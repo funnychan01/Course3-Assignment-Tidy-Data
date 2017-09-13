@@ -1,8 +1,9 @@
 I. This project includes:
 
-1. A tidy data set called "tidy_dataset"
+1. A tidy data set called "tidydata.txt"
 
 2. A link to a Github repo with the R script performing the analysis
+https://github.com/funnychan01/Course3-Assignment-Tidy-Data
 
 3. A code book that decribes the variables, the data
 
@@ -34,9 +35,9 @@ IV. Study Design:
 
 10.From the data set created, creates a second, independent tidy data set, called "tidy_dataset" with the average of each variable for each activity and each subject
 
-11.Export the tidy data set in csv format by the function write.csv
+11.Export the tidy data set in txt format by the function write.table
 
-12.The tidy data set can be read using the read.csv function
+12.The tidy data set can be read using the read.table function
 
 V. Acknowledgement:
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
