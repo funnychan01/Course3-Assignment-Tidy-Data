@@ -61,4 +61,4 @@ tidy_dataset <- dataset %>%
         group_by(subjects, activities) %>% 
         summarize_all(mean)
 # Export the tidy data set in csv format
-write.csv(tidy_dataset, "tidydata.csv", row.names = FALSE)
+write.table(tidy_dataset, "tidydata.txt", row.names = FALSE)
