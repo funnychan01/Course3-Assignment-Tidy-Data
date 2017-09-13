@@ -1,0 +1,76 @@
+I. Data informations:
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain
+
+II. Informations about variables in the tidy data set with units:
+
+***"vairable name" - Description***
+
+"subjects" - Subject id
+"activities" - Performed activities (walking, walking_upstairs, walking_downstairs, sitting, standing, laying) 
+"timeBodyAccMeanX" - Mean time of acceleration of body for X direction
+"timeBodyAccMeanY" - Mean time of acceleration of body for Y direction
+"timeBodyAccMeanZ" - Mean time of acceleration of body for Z direction
+"timeGravityAccMeanX" - Mean time of acceleration of gravity for X direction
+"timeGravityAccMeanY" - Mean time of acceleration of gravity for Y direction
+"timeGravityAccMeanZ" - Mean time of acceleration of gravity for Z direction
+"timeBodyAccJerkMeanX" - Mean time of acceleration of body jerk signals for X direction
+"timeBodyAccJerkMeanY" - Mean time of acceleration of body jerk signals for Y direction
+"timeBodyAccJerkMeanZ" - Mean time of acceleration of body jerk signals for Z direction
+"timeBodyGyroMeanX" - Mean time of body gyroscope measurement for X direction
+"timeBodyGyroMeanY" - Mean time of body gyroscope measurement for Y direction
+"timeBodyGyroMeanZ" - Mean time of body gyroscope measurement for Z direction
+"timeBodyGyroJerkMeanX" - Mean time of body gyroscope jerk measurement for X direction
+"timeBodyGyroJerkMeanY" - Mean time of body gyroscope jerk measurement for Y direction
+"timeBodyGyroJerkMeanZ" - Mean time of body gyroscope jerk measurement for Z direction
+"timeBodyAccMagMean" - Mean time of acceleration of body magnitude
+"timeGravityAccMagMean" - Mean time of acceleration of gravity magniture
+"timeBodyAccJerkMagMean" - Mean time of acceleration of body jerk magniture
+"timeBodyGyroMagMean" - Mean time of body gyroscope magnitude 
+"timeBodyGyroJerkMagMean" - Mean time of body gyroscope jerk magnitude   
+"freqBodyAccMeanX" - Mean frequency of acceleration of body for X direction  
+"freqBodyAccMeanY" - Mean frequency of acceleration of body for Y direction   
+"freqBodyAccMeanZ" - Mean frequency of acceleration of body for Z direction   
+"freqBodyAccJerkMeanX" - Mean frequency of acceleration of body jerk signals for X direction
+"freqBodyAccJerkMeanY" - Mean frequency of acceleration of body jerk signals for Y direction 
+"freqBodyAccJerkMeanZ" - Mean frequency of acceleration of body jerk signals for Z direction
+"freqBodyGyroMeanX" - Mean frequency of body gyroscope measurement for X direction  
+"freqBodyGyroMeanY" - Mean frequency of body gyroscope measurement for Y direction 
+"freqBodyGyroMeanZ" - Mean frequency of body gyroscope measurement for Z direction  
+"freqBodyAccMagMean" - Mean frequency of acceleration of body magnitude
+"freqBodyBodyAccJerkMagMean" - Mean frequency of acceleration of body jerk magniture 
+"freqBodyBodyGyroMagMean" - Mean frequency of body gyroscope magnitude   
+"freqBodyBodyGyroJerkMagMean" - Mean frequency of body gyroscope jerk magnitude
+"timeBodyAccStdX" - Standard deviation of time of acceleration of body for X direction   
+"timeBodyAccStdY" - Standard deviation of time of acceleration of body for Y direction   
+"timeBodyAccStdZ" - Standard deviation of time of acceleration of body for Z direction  
+"timeGravityAccStdX" - Standard deviation of time of acceleration of gravity for X direction
+"timeGravityAccStdY" - Standard deviation of time of acceleration of gravity for Y direction 
+"timeGravityAccStdZ" - Standard deviation of time of acceleration of gravity for Z direction
+"timeBodyAccJerkStdX" - Standard deviation of time of acceleration of body jerk signals for X direction  
+"timeBodyAccJerkStdY" - Standard deviation of time of acceleration of body jerk signals for Y direction 
+"timeBodyAccJerkStdZ" - Standard deviation of time of acceleration of body jerk signals for Z direction
+"timeBodyGyroStdX" - Standard deviation of time of body gyroscope measurement for X direction   
+"timeBodyGyroStdY" - Standard deviation of time of body gyroscope measurement for Y direction  
+"timeBodyGyroStdZ" - Standard deviation of time of body gyroscope measurement for Z direction   
+"timeBodyGyroJerkStdX" - Standard deviation of time of body gyroscope jerk measurement for X direction "timeBodyGyroJerkStdY" - Standard deviation of time of body gyroscope jerk measurement for Y direction
+"timeBodyGyroJerkStdZ" - Standard deviation of time of body gyroscope jerk measurement for Z direction "timeBodyAccMagStd" - Standard deviation of time of acceleration of body magnitude  
+"timeGravityAccMagStd" - Standard deviation of time of acceleration of gravity magnitude
+"timeBodyAccJerkMagStd" - Standard deviation of time of acceleration of body jerk magnitude
+"timeBodyGyroMagStd" - Standard deviation of time of body gyroscope magnitude
+"timeBodyGyroJerkMagStd" - Standard deviation of time of body gyroscope jerk magnitude 
+"freqBodyAccStdX" - Standard deviation of frequency of acceleration of body for X direction  
+"freqBodyAccStdY" - Standard deviation of frequency of acceleration of body for Y direction
+"freqBodyAccStdZ" - Standard deviation of frequency of acceleration of body for Z direction
+"freqBodyAccJerkStdX" - Standard deviation of frequency of acceleration of body jerk signals for X direction
+"freqBodyAccJerkStdY" - Standard deviation of frequency of acceleration of body jerk signals for Y direction 
+"freqBodyAccJerkStdZ" - Standard deviation of frequency of acceleration of body jerk signals for Z direction
+"freqBodyGyroStdX" - Standard deviation of frequency of body gyroscope measurement for X direction  
+"freqBodyGyroStdY" - Standard deviation of frequency of body gyroscope measurement for Y direction   
+"freqBodyGyroStdZ" - Standard deviation of frequency of body gyroscope measurement for Z direction  
+"freqBodyAccMagStd" - Standard deviation of frequency of acceleration of body magnitude  
+"freqBodyBodyAccJerkMagStd" - Standard deviation of frequency of acceleration of body jerk magnitude 
+"freqBodyBodyGyroMagStd" - Standard deviation of frequency of body gyroscope magnitude
+"freqBodyBodyGyroJerkMagStd" - Standard deviation of frequency of body gyroscope magnitude  
